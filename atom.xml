@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-17T07:21:50.414Z</updated>
+  <updated>2023-12-17T09:03:45.381Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>typora</title>
+    <link href="http://example.com/posts/dabb0af1.html"/>
+    <id>http://example.com/posts/dabb0af1.html</id>
+    <published>2023-12-17T09:02:41.000Z</published>
+    <updated>2023-12-17T09:03:45.381Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Typora简单使用教程😊"><a href="#Typora简单使用教程😊" class="headerlink" title="Typora简单使用教程😊"></a><a href="https://so.csdn.net/so/search?q=Typora&spm=1001.2101.3001.7020">Typora</a>简单使用教程😊</h1><h2 id="1️⃣字体样式语法"><a href="#1️⃣字体样式语法" class="headerlink" title="1️⃣字体样式语法"></a>1️⃣字体样式语法</h2><p><em><strong>typora退出全屏按F11</strong></em></p><p>标题</p><p><strong>标题语法了解html都不陌生，有点儿类似，h1~h6类似这边的#号。数字越小（#号越少）标题越大，分六等级。定义标题有一下几种方式。</strong></p><ul><li>方式一：这个标题手敲就在文本前边敲#号，#和文本中间需又空格隔开。</li><li><code>方式二：快捷键，Ctrl+(1~6)。</code></li><li>方式三：在Typora文本编辑区右键鼠标，选择段落也可以插入标题。不止标题，还有其他样式设置</li><li>方式四：在编辑器中左上角的菜单栏选择段落去插入标题。不止标题，还有其他样式设置</li></ul><p>​$\textcolor{red}{前两种方式应该比较常用（推荐），后两种适合小白}$</p><table><thead><tr><th><strong>标题</strong></th><th><strong>语法（方式一）</strong></th><th><strong>快捷键（方式二）</strong></th></tr></thead><tbody><tr><td>一级标题</td><td>#一级标题</td><td>Ctrl+1</td></tr><tr><td>二级标题</td><td>##二级标题</td><td>Ctrl+2</td></tr><tr><td>三级标题</td><td>###三级标题</td><td>Ctrl+3</td></tr><tr><td>四级标题</td><td>####四级标题</td><td>Ctrl+4</td></tr><tr><td>五级标题</td><td>#####五级标题</td><td>Ctrl+5</td></tr><tr><td>六级标题</td><td>######六级标题</td><td>Ctrl+6</td></tr></tbody></table><p><strong>标题展示效果如下</strong></p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote><h6 id=""><a href="#" class="headerlink" title=""></a></h6><p><strong>字体样式(斜体，加粗，下划线，删除线等)</strong></p><table><thead><tr><th><strong>字体</strong></th><th><strong>语法（方式一）</strong></th><th><strong>快捷键（方式二）</strong></th></tr></thead><tbody><tr><td>斜体</td><td>* 文本*</td><td>Ctrl+I</td></tr><tr><td>加粗</td><td><strong>文本</strong></td><td>Ctrl+B</td></tr><tr><td>下划线</td><td><u>文本</u></td><td>Ctrl+U</td></tr><tr><td>删除线</td><td><del>文本</del></td><td>Alt+Shift+5</td></tr><tr><td>加粗斜体</td><td><del>文本</del></td><td>无</td></tr><tr><td>高亮</td><td>&#x3D;&#x3D;文本&#x3D;&#x3D;</td><td>备注：需勾选高亮设置</td></tr><tr><td>文本居中</td><td><center>文本</center></td><td>无</td></tr><tr><td>文本颜色修改</td><td>$\textcolor{颜色}{文本}$</td><td>备注：需勾选内联公式设置</td></tr></tbody></table><p><strong>展示效果顺序如下</strong>：</p><p><em>斜体</em></p><p><strong>加粗</strong></p><p><u>下划线</u></p><p><del>删除线</del></p><p><em><strong>加粗斜体</strong></em></p><p>&#x3D;&#x3D;高亮&#x3D;&#x3D;</p><pre><code>        &lt;center&gt;文本居中&lt;/center&gt;</code></pre><p><strong>文本颜色修改</strong></p><p>$\textcolor{green}{2023年}$  $\textcolor{blue}{全国大学生}$$\textcolor{orange}{电子设计大赛}$</p><p><strong>当然颜色还有很多就不一一举例了，上边是这些颜色的单词(如上黑体没正常显示的在Typora上都会正常显示)，根据更换字体颜色的语法去讲单词写入语法中，就出现如上效果，大小写不区分。如：</strong></p><ul><li><code>$\textcolor&#123;black&#125;&#123;文本&#125;$</code></li><li>&#96;$\textcolor</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Typora简单使用教程😊&quot;&gt;&lt;a href=&quot;#Typora简单使用教程😊&quot; class=&quot;headerlink&quot; title=&quot;Typora简单使用教程😊&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://so.csdn.net/so/search?q=Typ</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
