@@ -21,7 +21,7 @@
       <link href="/posts/d87f7e0c.html"/>
       <url>/posts/d87f7e0c.html</url>
       
-        <content type="html"><![CDATA[<div class="tip "><p>YML666</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="tip "><p>YML666</p></div><p>杨</p>]]></content>
       
       
       
@@ -83,6 +83,17 @@
     
     
     <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -94,11 +105,11 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/js/runtime/runtime.js"/>
+      <url>/js/runtime/runtime.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now = new Date; function createtime() {    var t = new Date("12/18/2023 00:00:00"); now.setTime(now.getTime() + 250); var e = (now - t) / 1e3 / 60 / 60 / 24, a = Math.floor(e), n = (now - t) / 1e3 / 60 / 60 - 24 * a, r = Math.floor(n); 1 == String(r).length && (r = "0" + r);    var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r, i = Math.floor(s); 1 == String(i).length && (i = "0" + i); var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i, l = Math.round(o); 1 == String(l).length && (l = "0" + l);    let g = ""; g = r < 18 && r >= 9 ? `<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/��֪��-�ϰ�������.svg' title='��������25kҲ�ͻ���һ�����д���~'><span class='textTip'> <br> ��վ��Ȼ������ ${a} ��</span><span id='runtime'> ${r} Сʱ ${i} �� ${l} �� </span> <i class='fas fa-heartbeat' style='color:red'></i>` : `<img class='boardsign' src='https://npm.elemecdn.com/anzhiyu-blog@2.0.3/img/badge/��֪��-�°���.svg' title='�°��˾͸ÿ������ĵ���ˣ���ٺ�~'><span class='textTip'> <br> ��վ��Ȼ������ ${a} ��</span><span id='runtime'> ${r} Сʱ ${i} �� ${l} �� </span> <i class='fas fa-heartbeat' style='color:red'></i>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g)} setInterval((() => { createtime() }), 250);]]></content>
       
     </entry>
     
