@@ -6,7 +6,7 @@
   <link href="https://ymllearning.github.io/atom.xml" rel="self"/>
   
   <link href="https://ymllearning.github.io/"/>
-  <updated>2023-12-18T07:16:34.250Z</updated>
+  <updated>2023-12-18T13:25:16.465Z</updated>
   <id>https://ymllearning.github.io/</id>
   
   <author>
@@ -17,18 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo博客的备份与迁移</title>
+    <link href="https://ymllearning.github.io/posts/aa819cf1.html"/>
+    <id>https://ymllearning.github.io/posts/aa819cf1.html</id>
+    <published>2023-12-18T13:05:54.000Z</published>
+    <updated>2023-12-18T13:25:16.465Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tip info"><p>首先是备份 </p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1，进入到博客的根目录打开Git_Bash命令</span><br><span class="line">2，执行命令：git init使得这个本地博客变成git类型，方便github的上传和克隆</span><br><span class="line">3，在github端创建一个备份之后博客所要存放的仓库</span><br><span class="line">4，执行命令：git remote add origin 所要存放博客仓库ssh</span><br><span class="line">5，执行写好的脚本：命令: ./push.sh</span><br></pre></td></tr></table></figure><div class="tip info"><p>其次是迁移</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1，装好hexo环境</span><br><span class="line">2，配置好ssh密钥</span><br><span class="line">3，git clone 仓库地址ssh</span><br><span class="line">4，打开git bash 执行命令：npm install</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;tip info&quot;&gt;&lt;p&gt;首先是备份 &lt;/p&gt;
+&lt;/div&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>test</title>
     <link href="https://ymllearning.github.io/posts/d87f7e0c.html"/>
     <id>https://ymllearning.github.io/posts/d87f7e0c.html</id>
     <published>2023-12-18T06:46:33.000Z</published>
-    <updated>2023-12-18T07:16:34.250Z</updated>
+    <updated>2023-12-18T12:26:21.757Z</updated>
     
-    <content type="html"><![CDATA[<u>space</u>]]></content>
+    <content type="html"><![CDATA[<div class="tip "><p>YML666</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;u&gt;space&lt;/u&gt;</summary>
+    <summary type="html">&lt;div class=&quot;tip &quot;&gt;&lt;p&gt;YML666&lt;/p&gt;
+&lt;/div&gt;</summary>
       
     
     
