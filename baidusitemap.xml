@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://example.com/posts/4488a44e.html</loc>
+    <loc>https://YMLlearning.github.io/posts/d87f7e0c.html</loc>
+    <lastmod>2023-12-18</lastmod>
+  </url>
+  <url>
+    <loc>https://YMLlearning.github.io/posts/4488a44e.html</loc>
     <lastmod>2023-12-17</lastmod>
   </url>
   <url>
-    <loc>http://example.com/posts/dabb0af1.html</loc>
+    <loc>https://YMLlearning.github.io/posts/dabb0af1.html</loc>
     <lastmod>2023-12-17</lastmod>
   </url>
   <url>
-    <loc>http://example.com/posts/4a17b156.html</loc>
+    <loc>https://YMLlearning.github.io/posts/4a17b156.html</loc>
     <lastmod>2023-12-17</lastmod>
   </url>
 </urlset> 
